@@ -2,15 +2,15 @@
 
 from brain_games.cli import run
 
+
 def greet():
-    print ('Welcome to Brain Games!\n')
-    
+    print('Welcome to Brain Games!\n')
     print(run())
 
 
 def main():
-	greet()
+    greet()
+
 
 if __name__ == '__main__':
     main()
-
