@@ -2,14 +2,15 @@
 
 import prompt
 
-def run():
-	name = prompt.string('May I have your name? ')
-	return ('Hello, ' + name + '!')
 
-#print(run())
+def run():
+    name = prompt.string('May I have your name? ')
+    return ('Hello, ' + name + '!')
+
 
 def main():
-	run()
+    run()
+
 
 if __name__ == '__main__':
     main()
